@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Problem 4</title>
+</head>
+<body>
+    <script>
+        var start = parseInt(prompt("Please enter the starting number of the range:"));
+        var end = parseInt(prompt("Please enter the ending number of the range:"));
+
+        var oddNumbers = "";
+        var sum = 0;
+
+        // Iterate through the range and check for odd numbers
+        for (var i = start; i <= end; i++) {
+            if (i % 2 !== 0) {
+                oddNumbers += i + " ";
+                sum += i;
+            }
+        }
+
+        // Display the odd numbers and the sum
+        document.write("Odd numbers in the range " + start + " to " + end + ": " + oddNumbers + "<br>");
+        document.write("Sum of the numbers in the range: " + sum);
+    </script>
+</body>
+</html>
+In this code, the user is prompted to enter the starting and ending numbers of the range. The loop iterates through the range, checks if each number is odd, and if so, appends it to the oddNumbers string and adds it to the sum variable. Finally, the odd numbers and the sum are displayed using document.write().
+
+
+
+
+
+

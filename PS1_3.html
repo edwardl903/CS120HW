@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Problem 3</title>
+</head>
+<body>
+    <script>
+        var number1 = parseInt(prompt("Please enter the first number:"));
+        var number2 = parseInt(prompt("Please enter the second number:"));
+
+        var smallest;
+        var largest;
+
+        // Compare the two numbers
+        if (number1 < number2) {
+            smallest = number1;
+            largest = number2;
+        } else {
+            smallest = number2;
+            largest = number1;
+        }
+
+        // Display the numbers in order (smallest to largest)
+        document.write("Numbers in order (smallest to largest): " + smallest + ", " + largest);
+    </script>
+</body>
+</html>

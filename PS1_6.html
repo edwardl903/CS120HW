@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Problem 6</title>
+</head>
+
+<body>
+    <script>
+        function count(numbers, value) {
+            var count = 0;
+            for (var i = 0; i < numbers.length; i++) {
+                if (numbers[i] < value) {
+                    count++;
+                }
+            }
+            return count;
+        }
+
+        function processArray() {
+            var numbers = [3, 55, 30, 28, 9, 12];
+            var value = 4;
+            var result = count(numbers, value);
+
+            document.write("Array: " + numbers.join(" ") + "<br>");
+            document.write("Value: " + value + "<br>");
+            document.write("Count: " + result);
+        }
+
+        processArray();
+    </script>
+</body>
+</html>
