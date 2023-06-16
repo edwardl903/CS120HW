@@ -1,65 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>The Grandmaster Jam Band</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Lai Wedding Band</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-            /* Internal CSS styles specific to this page */
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
-            /* background-image: url(images/chess2.png); */
-            background-size: cover;
-            background-repeat: no-repeat;
+            padding: 0
         }
     
-        header {
-            background-color: #000;
-            color: #fff;
-            padding: 20px;
-        }
-    
-        nav {
-            background-color: #f5f5f5;
-            padding: 10px;
-        }
-    
-        nav a {
-            color: #000;
-            text-decoration: none;
-            padding: 5px 10px;
-            margin-right: 10px;
-        }
-    
-        nav a:hover {
-            background-color: #000;
-            color: #fff;
-        }
-    
-        main {
-            padding: 20px;
-        }
-    
-        h1, h2 {
-            color: black;
-        }
-
         h4 {
             color: black;
-            margin-top: 200px;
+            margin-top: 50px;
             font-size: 35px;
+            font-family:'Times New Roman', Times, serif;
         }
 
-        h6 {
-            background-color: #000;
-            color: #fff;
-            font-size: 30px;
+        main {
+            background-color: lightblue;
+            margin: 20px;
+            font-family:'Times New Roman', Times, serif;
+            padding: 20px;
         }
     
-
         section {
             margin-bottom: 26px;
+            color: black;
+            text-align: center;
+            font-family:'Times New Roman', Times, serif;
         }
     
         ul {
@@ -68,18 +39,17 @@
             margin: 0;
         }
     
-        li {
-            margin-bottom: 20px;
-        }
 
         img {
-                float: left;
-                width: 200px;
-                margin: 10px;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-right: 10px;
+            
         }
     
         table {
-            width: 100%;
+            width: 1250px;
             border-collapse: collapse;
             margin-top: 10px;
         }
@@ -96,14 +66,52 @@
             padding: 20px;
             text-align: center;
         }
+
+        .banner {
+            background-image: url("images/fam2.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            border: 20px solid;
+        }
+        .content {
+            margin: 20px;
+        }
+        .content h2 {
+            margin-top: 20px;
+        }
+        .content p {
+            margin-bottom: 10px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            h4 {
+                font-size: 24px;
+            }
+
+            main {
+                margin: 10px;
+                padding: 10px;
+            }
+
+            img {
+                width: 150px;
+                height: 150px;
+            }
+
+            table {
+                width: 100%;
+            }
+        }
     </style>
 </head>
 
 
 <body>
     <header>
-        <h6>The Grandmaster Jam Band</h6>
+        <h1>The Lai Wedding Band</h1>
     </header>
+
     <nav>
         <a href="index.html">Home</a>
         <a href="members.html">Band Members</a>
@@ -112,85 +120,55 @@
         <a href="contact.html">Contact</a>
     </nav>
 
+    <div class="banner"></div>
+    <main class="content">
+        <h2>Welcome to our Wedding Band!</h2>
+        <section>Hey there, welcome to The Lai Wedding Band's website! We're stoked to have you here. Whether you're getting hitched or throwing a big bash, we're all about bringing the magic of music to your special moments. Our mission is simple: to create incredible memories and set the perfect vibe for love, laughter, and celebration. 
+        Take your time to explore our site, get to know our awesome band members, 
+        and dive into the unique musical experience we have in store. 
+        We're pumped to be a part of your big day and help you create 
+        unforgettable memories that'll make you smile for years to come. So, 
+        let's kick off this musical journey together, shall we? 
+        </section>
+    </main>
+
     <main>
-        <h2>About Us</h2>
+        <h4>About Us</h4>
         <section>
-            <p>We are a chess-themed band dedicated to performing the greatest hits of the world. <br>
-            Join us as we bring back the energy and excitement of the world's biggest boy band!</p>
+            <p>The Lai Wedding Band is a group of talented musicians who are all about creating magical moments through music. They came together in Los Angeles, bonded by their love for playing music and making people's special days unforgettable. They chose the name "Lai" because it's their shared last name, and it represents their tight-knit friendship and their common goal of delivering incredible performances.
+                What makes The Lai Wedding Band special is their genuine dedication to personalizing every performance. They understand that each couple has a unique love story, so they tailor their music to reflect the couple's style and vibe. From jazz and pop to soul and R&B, these musicians blend different genres seamlessly, creating a captivating musical experience.
+            </p>
+               
+            <p> With their wealth of talent and love for what they do, The Lai Wedding Band brings an infectious energy to every event. They know how to read the crowd, keeping the dance floor packed and the celebration going. Their professional approach and extensive experience ensure a smooth and stress-free experience for the couple and their guests.
+                The Lai Wedding Band's mission is simple: to create unforgettable memories and celebrate love through the power of music. Whether they're playing a heartfelt ballad for the couple's first dance or a high-energy hit to get everyone grooving, these musicians are committed to making each moment of a couple's special day truly extraordinary.
+            </p>
         </section>
 
-        <h2>Band Members</h2>
+        <h2>Meet the Band Members!</h2>
         <section>
         <ul>
             <li>
-            <img src="images/magnus_carlsen.jpeg" alt="Member 1">
-            <h3>Magnus Carlsen</h3>
-            <p>Magnus Carlsen is known for his soulful voice and charismatic stage presence. <br>
-                He was a prominent member of One Direction and continues to make waves as a solo artist.</p>
+                <h3>Eddy Lu</h3>
+                <img src="images/ed.jpeg" alt="Member 1">
             </li>
             <li>
-            <img src="images/hikaru_nakamura.jpeg" alt="Member 2">
-            <h3>Hikaru Nakamura</h3>
-            <p>Hikaru Nakamura is a talented singer-songwriter who gained fame through The Grandmaster Jam Band. <br>
-                His distinct vocals and heartfelt lyrics have captivated fans around the world.</p>
+                <h3>Catherine Huang</h3>
+                <img src="images/emai.jpeg" alt="Member 2">
             </li>
             <li>
-                <img src="images/eric_hansen.jpeg" alt="Member 2">
-                <h3>Eric Hansen</h3>
-                <p>Eric Hansen is a talented singer-songwriter who gained fame through The Grandmaster Jam Band. <br>
-                    His distinct vocals and heartfelt lyrics have captivated fans around the world.</p>
+                <h3>Tommy Lee</h3>
+                <img src="images/tom.jpeg" alt="Member 3">
             </li>
             <li>
-                <img src="images/wesley_so.jpeg" alt="Member 2">
-                <h3>Wesley So</h3>
-                <p>Wesley So is a talented singer-songwriter who gained fame through The Grandmaster Jam Band. <br>
-                    His distinct vocals and heartfelt lyrics have captivated fans around the world.</p>
+                <h3>Jake Liang</h3>
+                <img src="images/james.jpeg" alt="Member 4">
             </li>
         </ul>
         </section>
-
+    </main>
     
-    <h4>Song List</h4>
-    <section>
-        <table>
-            <tr>
-            <th>Song</th>
-            <th>Artist</th>
-            </tr>
-            <tr>
-            <td>What Makes You Beautiful</td>
-            <td>One Direction</td>
-            </tr>
-            <tr>
-            <td>Story of My Life</td>
-            <td>One Direction</td>
-            </tr>
-            <tr>
-            <td>Drag Me Down</td>
-            <td>One Direction</td>
-            </tr>
-        </table>
-    </section>
-    <h2>Schedule</h2>
-    <section>
-      <table>
-        <tr>
-          <th>Date</th>
-          <th>Event</th>
-        </tr>
-        <tr>
-          <td>June 1, 2023</td>
-          <td>Concert</td>
-        </tr>
-        <tr>
-          <td>June 15, 2023</td>
-          <td>Music Festival</td>
-        </tr>
-      </table>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2023 The Grandmaster Jam Band. All rights reserved.</p>
-  </footer>
+    <footer>
+        <p>&copy; 2023 The Lai Wedding Band. All rights reserved.</p>
+    </footer>
 </body>
 </html>

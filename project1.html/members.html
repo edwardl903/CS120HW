@@ -1,55 +1,177 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>The Grandmaster Jam Band - Band Members</title>
-  <link rel="stylesheet" href="styles.css">
-  <style>
-  </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Lai Wedding Band - Band Members</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+    h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-family: 'Courier New', Courier, monospace;
+        font-style: italic;
+    } 
+
+    h3 {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: bold;
+    }
+
+    .member {
+        font-family: 'Courier New', Courier, monospace;
+        display: flex;
+        margin-bottom: 20px;
+        color: white;
+    }
+
+    .member img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-right: 10px;
+        float: left;
+    }
+
+    .member-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .member-info div {
+      border: 1px solid black;
+      margin: 10px;
+      padding: 10px;
+      box-sizing: border-box;
+      width: 800px;
+      background-color: #333;
+    } 
+
+    .member-info h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .member-info p {
+        font-size: 16px;
+        font-family:'Times New Roman', Times, serif;
+        margin-right: 20px;
+    }
+
+  
+    @media only screen and (max-width: 600px) {
+        h2 {
+          font-size: 24px;
+        }
+
+        .member {
+          flex-direction: column;
+        }
+
+        .member img {
+          width: 100%;
+          height: auto;
+          margin-right: 0;
+          margin-bottom: 10px;
+          float: none;
+        }
+
+        .member-info div {
+          width: 100%;
+        }
+    }
+    </style>
+
 </head>
+
+
 <body>
-  <header>
-    <h1>The Grandmaster Jam Band</h1>
-  </header>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="members.html">Band Members</a>
-    <a href="song.html">Song List</a>
-    <a href="schedule.html">Schedule</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-  <main>
+    <header>
+        <h1>The Lai Wedding Band</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="members.html">Band Members</a>
+        <a href="song.html">Song List</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+<main>
     <h2>Band Members</h2>
+    <h3>Eddy Lu</h3>
     <div class="member">
-      <img src="member1.jpg" alt="Member 1">
+        <img src="images/ed.jpeg" alt="Member 1">
+        <div class="member-info">
+
+          <div>
+            Eddy Lu, a 12-year-old trombonist hailing from the city of New Orleans, 
+            has dedicated his life to the art of creating epic melodies. 
+            Inspired by the rich musical heritage of his hometown, 
+            Eddy fell in love with jazz at an early age. His trombone playing is a 
+            testament to his deep connection with the genre. 
+            When he's not mesmerizing audiences with his smooth and expressive tones, 
+            Eddy enjoys immersing himself in the local music scene, jamming with fellow musicians, 
+            and discovering new talents. An adventurous spirit, Eddy also has a passion for travel and loves exploring new cultures, 
+            seeking inspiration from diverse musical traditions around the world. 
+          </div>
+        </div>
+    </div>
+
+    <h3>Catherine Huang</h3>
+    <div class="member">
+      <img src="images/emai.jpeg" alt="Member 2">
       <div class="member-info">
-        <h3>Member 1</h3>
-        <p>Bio for Member 1</p>
+        <div>
+            Catherine Huang is a talented singer-songwriter who gained fame through the Jackson Jills Acapella. 
+            Her distinct vocals and heartfelt lyrics have captivated fans around the world.
+            At 13 years old, Catherine Huang is a gifted pianist with roots in Shanghai, China. Her journey with 
+            the piano began at the age of six, and she quickly developed a deep connectionfor the instrument. 
+            Catherine enjoys immersing herself in the world of poetry. She can often be found curled up with a good book, 
+            finding solace and inspiration in the written word. Catherine also has a love for nature and finds peace 
+            during long walks in serene gardens, which further fuels her creativity.
+        </div>
       </div>
     </div>
+
+    <h3>Tommy Lee</h3>
     <div class="member">
-      <img src="member2.jpg" alt="Member 2">
+      <img src="images/tom.jpeg" alt="Member 3">
       <div class="member-info">
-        <h3>Member 2</h3>
-        <p>Bio for Member 2</p>
+        <div>
+          Tommy Lee, a 30-year-old flutist originally from London, England, 
+          is known for his enchanting and lyrical playing. With a profound appreciation for the 
+          delicate nuances of the flute, Tommy's performances transport listeners to a world of musical enchantment. 
+          Outside of music, Tommy is a self-proclaimed foodie and loves exploring different cuisines. 
+          He spends his free time experimenting in the kitchen, creating delightful dishes inspired by his global travels. 
+          Tommy is also an ardent supporter of environmental causes
+          as he believes in preserving the beauty of nature for future generations.
+        </div>
       </div>
     </div>
+
+    <h3>Jake Liang</h3>
     <div class="member">
-      <img src="member3.jpg" alt="Member 3">
+      <img src="images/james.jpeg" alt="Member 4">
       <div class="member-info">
-        <h3>Member 3</h3>
-        <p>Bio for Member 3</p>
+          <div>
+          Jake Liang is a talented singer-songwriter who gained fame through The Grandmaster Jam Band.
+          His distinct vocals and heartfelt lyrics have captivated fans around the world.
+          James Liang, a 26-year-old powerhouse vocalist from Los Angeles, California, possesses a voice that captivates hearts.
+          From a young age, Jake was drawn to the transformative power of music, and his soulful voice became his instrument of choice.
+          Beyond his musical pursuits, Jake is a passionate advocate for mental health awareness.
+          He volunteers at local organizations, using his platform to destigmatize mental health issues and promote self-care.
+          Jake also finds solace in nature, often taking long hikes in the nearby mountains to find clarity and inspiration for his musical artistry.
+      </div>
+        
       </div>
     </div>
-    <div class="member">
-      <img src="member4.jpg" alt="Member 4">
-      <div class="member-info">
-        <h3>Member 4</h3>
-        <p>Bio for Member 4</p>
-      </div>
-    </div>
-  </main>
-  <footer>
-    <p>&copy; 2023 The Grandmaster Jam Band. All rights reserved.</p>
-  </footer>
+</main>
+
+    <footer>
+      <p>&copy; 2023 The Lai Wedding Band. All rights reserved.</p>
+    </footer>
+    
 </body>
 </html>

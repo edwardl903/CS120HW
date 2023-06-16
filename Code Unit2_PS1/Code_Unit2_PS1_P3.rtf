@@ -1,0 +1,47 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2708
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Italic;}
+{\colortbl;\red255\green255\blue255;\red211\green211\blue211;\red24\green24\blue24;\red240\green104\blue89;
+\red242\green209\blue152;\red155\green124\blue224;\red141\green186\blue237;\red129\green205\blue152;\red115\green115\blue115;
+\red207\green131\blue37;\red82\green147\blue227;}
+{\*\expandedcolortbl;;\cssrgb\c85882\c85882\c85882;\cssrgb\c12157\c12157\c12157;\cssrgb\c96078\c49804\c42353;
+\cssrgb\c96078\c85098\c65882;\cssrgb\c67451\c57647\c90196;\cssrgb\c61569\c78039\c94510;\cssrgb\c56863\c83137\c65882;\cssrgb\c52549\c52549\c52549;
+\cssrgb\c85098\c58431\c18824;\cssrgb\c38824\c65098\c91373;}
+\margl1440\margr1440\vieww28600\viewh15680\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 <!\cf4 \strokec4 DOCTYPE\cf2 \strokec2  \cf5 \strokec5 html\cf2 \strokec2 >\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 <\cf4 \strokec4 html\cf2 \strokec2 >\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 <\cf4 \strokec4 head\cf2 \strokec2 >\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2     <\cf4 \strokec4 title\cf2 \strokec2 >Problem 3</\cf4 \strokec4 title\cf2 \strokec2 >\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 </\cf4 \strokec4 head\cf2 \strokec2 >\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 <\cf4 \strokec4 body\cf2 \strokec2 >\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2     <\cf4 \strokec4 script\cf2 \strokec2 >\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2         \cf6 \strokec6 var\cf2 \strokec2  \cf4 \strokec4 number1\cf2 \strokec2  \cf7 \strokec7 =\cf2 \strokec2  \cf7 \strokec7 parseInt\cf2 \strokec2 (\cf7 \strokec7 prompt\cf2 \strokec2 (\cf8 \strokec8 "Please enter the first number:"\cf2 \strokec2 ));\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2         \cf6 \strokec6 var\cf2 \strokec2  \cf4 \strokec4 number2\cf2 \strokec2  \cf7 \strokec7 =\cf2 \strokec2  \cf7 \strokec7 parseInt\cf2 \strokec2 (\cf7 \strokec7 prompt\cf2 \strokec2 (\cf8 \strokec8 "Please enter the second number:"\cf2 \strokec2 ));\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2         \cf6 \strokec6 var\cf2 \strokec2  \cf4 \strokec4 smallest\cf2 \strokec2 ;\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2         \cf6 \strokec6 var\cf2 \strokec2  \cf4 \strokec4 largest\cf2 \strokec2 ;\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2         
+\f1\i \cf9 \strokec9 // Compare the numbers
+\f0\i0 \cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2         \cf6 \strokec6 if\cf2 \strokec2  (\cf4 \strokec4 number1\cf2 \strokec2  \cf7 \strokec7 <\cf2 \strokec2  \cf4 \strokec4 number2\cf2 \strokec2 ) \{\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2             \cf4 \strokec4 smallest\cf2 \strokec2  \cf7 \strokec7 =\cf2 \strokec2  \cf4 \strokec4 number1\cf2 \strokec2 ;\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2             \cf4 \strokec4 largest\cf2 \strokec2  \cf7 \strokec7 =\cf2 \strokec2  \cf4 \strokec4 number2\cf2 \strokec2 ;\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2         \} \cf6 \strokec6 else\cf2 \strokec2  \{\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2             \cf4 \strokec4 smallest\cf2 \strokec2  \cf7 \strokec7 =\cf2 \strokec2  \cf4 \strokec4 number2\cf2 \strokec2 ;\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2             \cf4 \strokec4 largest\cf2 \strokec2  \cf7 \strokec7 =\cf2 \strokec2  \cf4 \strokec4 number1\cf2 \strokec2 ;\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2         \}\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2         
+\f1\i \cf9 \strokec9 // Display the numbers in order
+\f0\i0 \cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2         \cf10 \strokec10 document\cf2 \strokec2 .\cf11 \strokec11 write\cf2 \strokec2 (\cf8 \strokec8 "Numbers in order (smallest to largest): "\cf2 \strokec2  \cf7 \strokec7 +\cf2 \strokec2  \cf4 \strokec4 smallest\cf2 \strokec2  \cf7 \strokec7 +\cf2 \strokec2  \cf8 \strokec8 ", "\cf2 \strokec2  \cf7 \strokec7 +\cf2 \strokec2  \cf4 \strokec4 largest\cf2 \strokec2 );\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2     </\cf4 \strokec4 script\cf2 \strokec2 >\cf2 \cb1 \strokec2 \
+\cf2 \cb3 \strokec2 </\cf4 \strokec4 body\cf2 \strokec2 >\cf2 \cb1 \strokec2 \
+\
+\cf2 \cb3 \strokec2 </\cf4 \strokec4 html\cf2 \strokec2 >\cf2 \cb1 \strokec2 \
+}
